@@ -1,0 +1,24 @@
+{
+    "name": "joselopez/inicio-proeycto",
+    "version": "1.0.0",
+    "description": "Ejemplo composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4@dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joselopez\\InicioProeycto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joselopez"
+        }
+    ],
+    "minimum-stability": "dev"
+}
